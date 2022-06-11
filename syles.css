@@ -1,6 +1,16 @@
 body {
    font-family: 'Roboto', sans-serif;
    margin: 0;
+   padding: 0;
+   height: 100vh;
+   box-sizing: border-box;
+}
+
+h1,
+h2,
+p,
+blockquote {
+   margin: 0;
 }
 
 /* HEADER */
@@ -25,7 +35,7 @@ a {
 }
 
 header .container {
-   width: 80%;
+   width: 70%;
    margin: 0 auto;
    display: flex;
    justify-content: space-between;
@@ -37,3 +47,45 @@ header .container {
 }
 
 /* HERO */
+.hero {
+   display: flex;
+   background: #1f2937;
+   justify-content: center;
+   padding: 50px 0;
+   gap: 30px;
+}
+
+.hero h1 {
+   font-size: 38px;
+   color: #f9faf8;
+}
+
+.hero p {
+   font-size: 18px;
+   color: #e5e7eb;
+}
+
+.hero-item {
+   width: 430px;
+}
+
+.hero-image {
+   width: 433px;
+}
+
+.hero img {
+   width: 110%;
+}
+.button {
+   text-align: center;
+   background-color: #3882f6;
+   padding: 7px 30px;
+   border-radius: 8px;
+   border: none;
+}
+
+.hero h1,
+.hero p,
+.hero button {
+   margin-top: 12px;
+}
