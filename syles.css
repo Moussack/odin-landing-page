@@ -115,7 +115,7 @@ header .container {
    max-height: 100%;
    width: auto;
    border-radius: 5%;
-   border: 5px solid rgb(50, 25, 119);
+   border: 5px solid #1f2937;
 }
 
 .card-container {
