@@ -199,3 +199,13 @@ header .container {
    border: 2px solid #f9faf8;
    background: #282828;
 }
+
+/* FOOTER */
+footer {
+   background-color: #282828;
+   color: #e5e7eb;
+   height: 70px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
